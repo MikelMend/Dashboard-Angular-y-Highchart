@@ -1,0 +1,32 @@
+<mat-nav-list>
+     <div class="profile-card">
+         <div class="header">
+             <h2>Mikel Mendoza Rubio</h2>
+             <h4>mikelmendozarubio89@gmail.com</h4>
+         </div>
+         <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="">
+     </div>
+
+     <mat-divider></mat-divider>
+
+     <h2 matSubheader>Páginas</h2>
+
+     <a routerLinkActive="list-item-active" mat-list-item routerLink="/">Dashboard</a>
+     <a routerLinkActive="list-item-active" mat-list-item routerLink="/posts">Posts</a>
+     <a routerLinkActive="list-item-active" mat-list-item routerLink="/articles">Artículos</a>
+    
+    <mat-divider></mat-divider>
+    
+    <h2 matSubheader>Herramientas</h2>
+    <a routerLinkActive="list-item-active" mat-list-item routerLink="/contacts">
+        <mat-icon>import_contacts</mat-icon>
+        Contactos
+    </a>
+
+    <a routerLinkActive="list-item-active" mat-list-item routerLink="/contacts">
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+
+</mat-nav-list>
+
